@@ -1,0 +1,14 @@
+[project]
+name = "ssgame"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ruff>=0.12.9",
+]
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.uv.sources]
+ssgame = { path = "src/ssgame" }  # явное указание пути
